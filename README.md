@@ -651,11 +651,6 @@ class PricingEngine {
 | **技术栈** | Solidity, x402, Base, OpenAI |
 | **演示** | Agent 注册 → 服务发布 → x402 支付 → A2A 谈判 |
 
----
-
-## 贡献
-
-欢迎贡献！请查看 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ---
 
@@ -668,8 +663,6 @@ MIT License - 详见 [LICENSE](LICENSE)
 ## 联系
 
 - GitHub: [https://github.com/adureychloe/agent-commerce-hub](https://github.com/adureychloe/agent-commerce-hub)
-- Twitter: [@AgentCommerceHub](https://twitter.com/AgentCommerceHub)
-- Discord: [Join our community](https://discord.gg/agentcommerce)
 
 ---
 
