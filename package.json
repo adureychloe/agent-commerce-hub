@@ -1,0 +1,24 @@
+{
+  "name": "agent-commerce-hub",
+  "version": "1.0.0",
+  "description": "Agent Commerce Hub - AI Agent 商业中心与 A2A 市场",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js",
+    "agent": "node agent/index.js",
+    "frontend": "cd frontend && npm run dev"
+  },
+  "keywords": ["x402", "agent", "commerce", "a2a", "erc8004", "mcp", "web3"],
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "ethers": "^6.9.0",
+    "openai": "^4.20.0",
+    "axios": "^1.6.0"
+  }
+}

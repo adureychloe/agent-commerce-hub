@@ -1,0 +1,49 @@
+{
+  "agent": {
+    "name": "Alpha Commerce Agent",
+    "metadataIpfs": "ipfs://Qm...",
+    "paymentToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+  },
+  "services": [
+    {
+      "name": "AI Analysis",
+      "description": "AI-powered data analysis service",
+      "basePrice": 10,
+      "duration": 3600,
+      "executor": {
+        "type": "compute"
+      }
+    },
+    {
+      "name": "Data Processing",
+      "description": "High-speed data processing",
+      "basePrice": 5,
+      "duration": 1800,
+      "executor": {
+        "type": "data"
+      }
+    },
+    {
+      "name": "API Integration",
+      "description": "Custom API integration service",
+      "basePrice": 20,
+      "duration": 7200,
+      "executor": {
+        "type": "api"
+      }
+    }
+  ],
+  "pricing": {
+    "minPrice": 5,
+    "maxPrice": 100,
+    "strategy": "dynamic"
+  },
+  "x402": {
+    "network": "base",
+    "facilitator": "0x..."
+  },
+  "risk": {
+    "minReputation": 3,
+    "maxRiskScore": 0.7
+  }
+}
